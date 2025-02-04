@@ -1,2 +1,2 @@
-# clientoclarify.github.io
-MY Company Website
+# Clientoclarify.github.io
+Orginal Company Website
