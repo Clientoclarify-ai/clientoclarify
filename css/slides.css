@@ -1,0 +1,38 @@
+/* Custom styles for Service Slides */
+.service-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+.service-item:hover {
+  transform: translateY(-10px);
+}
+.service-icon {
+  background: #f1f1f1;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Owl Carousel navigation dots */
+.owl-dots .owl-dot {
+  display: inline-block;
+  margin: 5px;
+}
+.owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  display: block;
+  border-radius: 50%;
+}
+.owl-dots .owl-dot.active span {
+  background: #007bff;
+}
